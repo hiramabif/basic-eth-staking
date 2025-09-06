@@ -54,7 +54,7 @@ stakingContract.unstakeAll();
 ```solidity
 // Get staker details
 (uint256 amount, uint256 timeStaked, uint256 unlockTime, bool hasStaked) = 
-    stakingContract.stakers(userAddress);
+    stakingContract.getStakerInfo(userAddress);
 ```
 
 ### For Owner
